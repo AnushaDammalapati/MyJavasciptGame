@@ -1,0 +1,46 @@
+div#background {
+    width: 1500px;
+    height: 700px;
+    background-image: url('images/background.png');
+    position: absolute;
+}
+
+div#shooter {
+    width: 50px;
+    height: 50px;
+    background-image: url('images/shooter.png');
+    position: absolute;
+    left: 575px;
+    top: 650px; 
+}
+
+div#bullet {
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+}
+
+div.missile1 {
+    width: 10px;
+    height: 28px;
+    background-image: url('images/bullet1.png');
+    position: absolute;
+}
+
+div#rebel {
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+}
+
+div.enemy {
+    width: 50px;
+    height: 50px;
+    background-image: url('images/rebel.png');
+    position: absolute;
+}
+div#container {
+	width: 800px;
+	height:1000px;
+	position: fixed;
+}
